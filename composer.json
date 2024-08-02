@@ -1,0 +1,26 @@
+{
+    "name": "meventos/api",
+    "description": "Integração com a API da Meeventos",
+    "type": "library",
+    "license": "Mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Thalles Brandão",
+            "email": "thalles@meeventos.com.br"
+        },
+        {
+            "name": "Jonathan Brambati",
+            "email": "jonathan@meeventos.com.br"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Meeventos\\": "src/"
+        }
+    }
+}
