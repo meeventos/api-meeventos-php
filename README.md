@@ -1,1 +1,1 @@
-# api-meeventos-php
+# Meventos API Client PHP
