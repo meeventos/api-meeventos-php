@@ -1,6 +1,6 @@
 {
     "name": "meventos/api",
-    "description": "API para integração com serviços da Meevento.",
+    "description": "Client em PHP para integração com API da Meeventos.",
     "type": "library",
     "license": "Apache-2.0",
     "version": "1.0.0",
