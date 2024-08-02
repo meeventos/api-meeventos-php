@@ -1,8 +1,8 @@
 {
     "name": "meventos/api",
-    "description": "Integração com a API da Meeventos",
+    "description": "API para integração com serviços da Meevento.",
     "type": "library",
-    "license": "Mit",
+    "license": "Apache-2.0",
     "version": "1.0.0",
     "authors": [
         {
@@ -17,10 +17,15 @@
     "require": {
         "php": ">=5.6"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Meeventos\\": "src/"
         }
-    }
+    },
+    "keywords": ["eventos", "erp", "api", "integração"],
+    "documentation": "https://docs.meeventos.com.br",
+    "issues": "https://github.com/meeventos/api/issues",
+    "contribute": "https://github.com/meeventos/api/CONTRIBUTING.md",
+    "changelog": "https://github.com/meeventos/api/CHANGELOG.md"
 }
